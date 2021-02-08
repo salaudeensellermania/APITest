@@ -1,0 +1,14 @@
+# Need to connect to preprod using tunnel from your terminal as mentioned below:
+	ssh -L 1234:slrppdbdd1:3306 sshgate@sellermania3.nexen.net -f -N
+
+/* As I have installed new OS and generated a new Public key, I'm still using the old key from another location, so I could give the below command*/
+ssh -L 1234:slrppdbdd1:3306 -i /home/sellerp26/Desktop/disk/keys/id_rsa -t sshgate@sellermania3.nexen.net -f -N
+
+# Required Softwares:
+	#Python software to be installed in your machine
+		#MYSQLDB module for python to be installed
+	#Php software needs to be installed in your machine.
+
+
+(Note: the input csv files should have the Text format and delimited by COMMA)
+
